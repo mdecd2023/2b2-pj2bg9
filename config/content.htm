@@ -47,8 +47,7 @@
 <p></p>
 <p><a href="/downloads/foot ball.ttt">足球比賽</a></p>
 <p><a href="/downloads/足球場地.ttt">足球場景</a></p>
-<p><span class="x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2umb2 x1beo9mf xaigb6o x12ejxvf x3igimt xarpa2k xedcshv x1lytzrv x1t2pt76 x7ja8zs x1qrby5j">:先利用onshape繪製出場景再轉入coppliasim中，調整大小，放置球跟機器人然後調整位置，加入感測器調整適當大小及位置，加入記分板，記分板中的程式內容主要有以下幾點 sysCall_init 函數：這個函數用於初始化變數和數組，並設置一些物體的顏色。其中的 score1 和 score3 變量用於記錄分數。數組 s0 到 s9 是表示數字 0 到 9 的二進制模式。該函數還使用了迴圈來設置 ten 和 digit 物體的顏色，根據 s[1] 數組中的值。 sysCall_actuation 函數：這個函數在模擬中被重複調用。它執行以下操作： a. 讀取接近傳感器 sensor 的值，檢查附近是否有物體。 b. 如果檢測到物體，進入一個條件語句。 c. 如果 score1 小於 9，則將 score1 加 1，重置 ball、bubbleRob1 和 bubbleRob2 的位置和方向，並根據 score1 的新值更新 digit 物體的顏色。同時，將 ball 的位置和方向重置。 d. 如果 score1 達到 9，則檢查 score3 是否小於 9。 e. 如果 score3 小於 9，則將 score1 設置為 0，並將 score3 加 1。同樣地，根據 score3 的新值更新 ten 物體的顏色。 f. 如果 score3 達到 9，則暫停模擬。 根據這段程式碼的邏輯，當接近傳感器檢測到物體時，會根據 score1 和 score3 的值來改變物體的顏色和位置。如果 score1 和 score3 都達到 9，則模擬將被暫停。 這段程式碼可以用於一個模擬環境中，例如機器人控制的遊戲中，用來計算並顯示分數，以及根據分數改變物體的狀態和位置。</span></p>
-<h2>41023230</h2>
+<p><span class="x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2umb2 x1beo9mf xaigb6o x12ejxvf x3igimt xarpa2k xedcshv x1lytzrv x1t2pt76 x7ja8zs x1qrby5j">首先利用onshape繪製出場景再轉入coppliasim中，調整大小，放置球跟機器人然後調整位置，加入感測器調整適當大小及位置，加入記分板，記分板中的程式內容主要有以下幾點 sysCall_init 函數：這個函數用於初始化變數和數組，並設置一些物體的顏色。其中的 score1 和 score3 變量用於記錄分數。數組 s0 到 s9 是表示數字 0 到 9 的二進制模式。該函數還使用了迴圈來設置 ten 和 digit 物體的顏色，根據 s[1] 數組中的值。 sysCall_actuation 函數：這個函數在模擬中被重複調用。它執行以下操作： a. 讀取接近傳感器 sensor 的值，檢查附近是否有物體。 b. 如果檢測到物體，進入一個條件語句。 c. 如果 score1 小於 9，則將 score1 加 1，重置 ball、bubbleRob1 和 bubbleRob2 的位置和方向，並根據 score1 的新值更新 digit 物體的顏色。同時，將 ball 的位置和方向重置。 d. 如果 score1 達到 9，則檢查 score3 是否小於 9。 e. 如果 score3 小於 9，則將 score1 設置為 0，並將 score3 加 1。同樣地，根據 score3 的新值更新 ten 物體的顏色。 f. 如果 score3 達到 9，則暫停模擬。 根據這段程式碼的邏輯，當接近傳感器檢測到物體時，會根據 score1 和 score3 的值來改變物體的顏色和位置。如果 score1 和 score3 都達到 9，則模擬將被暫停。 這段程式碼可以用於一個模擬環境中，例如機器人控制的遊戲中，用來計算並顯示分數，以及根據分數改變物體的狀態和位置。</span></p><h2>41023230</h2>
 <p>自評:65分</p>
 <p>遇到的問題:</p>
 <p>pull request常發生問題、綠球的程式無法使用</p>
@@ -70,7 +69,7 @@
 <p></p>
 <h2>41023250</h2>
 <p>自評:60</p>
-<p>心得:</p>
+<p>心得:初始場景是以足球場做為參考製作的，不過在建立完成之後因為場地大小和格局設計等原因，時常導致不易於遊玩，有場景因碰撞而改變，或是球體卡住、球體會自主往一個方向移動等問題，後來便決定重新繪製新的場景。</p>
 <p></p>
 <h1>Brython</h1>
 <p><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">https://en.wikipedia.org/wiki/Python_(programming_language)</a></p>
